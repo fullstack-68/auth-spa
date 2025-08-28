@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { type FC } from "react";
 import { type Session, type User } from "../types/api";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
