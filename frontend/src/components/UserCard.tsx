@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { type FC } from "react";
 import type { User } from "../types/api";
 interface Props {
   user: User | null | undefined;

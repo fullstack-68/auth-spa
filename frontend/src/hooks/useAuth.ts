@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import { AuthData } from "../types/api";
+import { type AuthData } from "../types/api";
 
 function getMe() {
   return axios.get<AuthData>("/api/me");
